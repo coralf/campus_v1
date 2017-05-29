@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	
+	<filter>
+		<filter-name>AdminFilter</filter-name>
+		<filter-class>com.campus.filter.AdminFilter</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>AdminFilter</filter-name>
+		<url-pattern>/Admin/private/*</url-pattern>
+	</filter-mapping>
+	
+	<display-name></display-name>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>IndexServlet</servlet-name>
+		<servlet-class>com.campus.servlet.IndexServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>NewReadServlet</servlet-name>
+		<servlet-class>com.campus.servlet.NewReadServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ActivitiServlet</servlet-name>
+		<servlet-class>com.campus.servlet.ActivitiServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommunityServlet</servlet-name>
+    <servlet-class>com.campus.servlet.CommunityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.campus.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsServlet</servlet-name>
+    <servlet-class>com.campus.servlet.NewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.campus.servlet.AdminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>ActivitiServlet</servlet-name>
+		<url-pattern>/ActivitiServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>IndexServlet</servlet-name>
+		<url-pattern>/IndexServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>NewReadServlet</servlet-name>
+		<url-pattern>/NewReadServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommunityServlet</servlet-name>
+    <url-pattern>/CommunityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsServlet</servlet-name>
+    <url-pattern>/NewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>IndexServlet</welcome-file>
+	</welcome-file-list>
+</web-app>

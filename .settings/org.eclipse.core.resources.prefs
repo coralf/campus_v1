@@ -1,0 +1,26 @@
+#Sat Mar 11 11:09:20 CST 2017
+eclipse.preferences.version=1
+encoding//WebRoot/Admin/login.jsp=UTF-8
+encoding//WebRoot/Admin/private/activityManager.jsp=UTF-8
+encoding//WebRoot/Admin/private/add.jsp=UTF-8
+encoding//WebRoot/Admin/private/index.jsp=UTF-8
+encoding//WebRoot/Admin/private/newTypeManager.jsp=UTF-8
+encoding//WebRoot/Admin/private/newsManager.jsp=UTF-8
+encoding//WebRoot/Admin/private/pass.jsp=UTF-8
+encoding//WebRoot/Admin/private/tips.jsp=UTF-8
+encoding//WebRoot/Admin/private/userManager.jsp=UTF-8
+encoding//WebRoot/Admin/private/welcome.jsp=UTF-8
+encoding//WebRoot/WebApp/activity.jsp=UTF-8
+encoding//WebRoot/WebApp/community.jsp=UTF-8
+encoding//WebRoot/WebApp/gambit.jsp=UTF-8
+encoding//WebRoot/WebApp/index.jsp=UTF-8
+encoding//WebRoot/WebApp/login.jsp=UTF-8
+encoding//WebRoot/WebApp/myJoinAct.jsp=UTF-8
+encoding//WebRoot/WebApp/personalCenter.jsp=UTF-8
+encoding//WebRoot/WebApp/readAct.jsp=UTF-8
+encoding//WebRoot/WebApp/readNews.jsp=UTF-8
+encoding//WebRoot/WebApp/register.jsp=UTF-8
+encoding//WebRoot/WebApp/setUserInfo.jsp=UTF-8
+encoding//WebRoot/WebApp/userInfo.jsp=UTF-8
+encoding//WebRoot/WebApp/userMakeActivity.jsp=UTF-8
+encoding//WebRoot/WebApp/userPublish.jsp=UTF-8
